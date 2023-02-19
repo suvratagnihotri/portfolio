@@ -25,17 +25,23 @@ export default function EditProfile() {
                     <div className="company-name-experience-work">
                         <label className="company-name-label">Enter your company name</label>
                         <input className="company-name" placeholder="Company name"/>
-                        <input className="company-experience" placeholder="time spended in this organization"/>
+                        <div className="work-time">
+                            <label className="from-date-label">From Date</label>
+                            <input className="from-date"/>
+                            <label className="to-date-label">To Date</label>
+                            <input className="to-date"/>
+                        </div>
                         <textarea className="company-word" placeholder="explain your roles and responsibilities in this organization"/>
                     </div>
                 </div>
                 <div className="total-experience-wrapper">
-                    <label className="experience-label">How much experience do you have?</label> 
+                    <label className="experience-label">Total years of experience you have ?</label> 
                     <input type="numeric" className="experience-years"/>
                     <input type="numeric" className="experience-months"/>
                 </div>
                 <div className="technologies-wrapper">
-                    
+                    <label className="enchnologies-label">Enter the technologies separated by comma</label>
+                    <input className="technologies-name"></input>
                 </div>
                 <div className="previous-projects-wrapper">
 
