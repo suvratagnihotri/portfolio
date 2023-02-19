@@ -1,0 +1,75 @@
+.sidebar-wrapper{
+    width: 4.5vw;
+    height: 100vh;
+    text-align: center;
+    background-color: grey;
+}
+
+.profile-logo{
+    width: 3.5vw;
+    height: 8vh;
+    transition: 100ms;
+    padding-top: 20px;
+}
+
+.profile-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contact-info-wrapper{
+    position: relative;
+    margin-top: 15vh;
+}
+
+.mail-logo{
+    width: 2vw;
+    height: 6vh;
+    transition: 100ms;
+    padding-top: 15px;
+
+}
+
+.mail-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.phone-logo{
+    width: 2vw;
+    height: 6vh;
+    transition: 100ms;
+    padding-top: 15px;
+
+}
+
+.phone-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.linkedin-logo{
+    width: 2vw;
+    height: 6vh;
+    transition: 100ms;
+    padding-top: 15px;
+
+}
+
+.linkedin-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.github-logo{
+    width: 2vw;
+    height: 6vh;
+    transition: 100ms;
+    padding-top: 15px;
+
+}
+
+.github-logo:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
