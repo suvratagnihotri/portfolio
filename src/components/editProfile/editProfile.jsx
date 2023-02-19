@@ -44,6 +44,7 @@ export default function EditProfile() {
                     <input className="technologies-name"></input>
                 </div>
                 <div className="previous-projects-wrapper">
+                    <label className="enchnologies-label">Enter the Projects that you have worked on or developed</label>
 
                 </div>
                 <div className="self-description-wrapper">
