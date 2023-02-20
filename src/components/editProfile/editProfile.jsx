@@ -56,6 +56,9 @@ export default function EditProfile() {
                 <div className="languages-wrapper">
 
                 </div>
+                <div className="extra-wrapper">
+
+                </div>
             </div>
         </div>
     )
