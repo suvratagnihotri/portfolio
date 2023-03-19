@@ -1,0 +1,63 @@
+.experience-container{
+    border: solid;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+}
+
+.right-half-container{
+    width: 50%;
+    height: 100%;
+}
+
+.left-half-container{
+    width: 50%;
+    height: 100%;
+}
+
+.first-experience-container{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+.second-experience-container{
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-radius: 2px;
+    text-align: center;
+    color: white;
+}
+
+.company-name{
+    margin-top: 3%;
+    font-size: 2rem;
+    color: white;
+}
+
+.company-domain{
+    color: rgb(160, 152, 152);
+}
+
+.time-period{
+    margin-top: 5%;
+    font-size: 2rem;
+}
+
+.your-role{
+    margin-top: 2%;
+    font-size: 2rem;
+
+}
+
+.work-description{
+    margin-top: 2%;
+    font-size: 1.5rem;
+}
+
+
