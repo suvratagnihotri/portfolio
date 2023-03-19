@@ -122,7 +122,21 @@
     }
   }
 
-.profile{
+.profile-wrapper{
     width: 50%;
     height: 100%;
 }
+
+.profile{
+    margin-left: 20%;
+    margin-top: 7%;
+    width: 60%;
+    height:335px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;   
+    border-radius: 50%;
+}
+
+.profile:hover {
+    transform: rotateY(180deg);
+  }

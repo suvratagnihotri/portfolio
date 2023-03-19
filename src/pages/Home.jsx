@@ -1,4 +1,5 @@
 import './Home.css';
+import profile from '../static/images/profile.jpg'
 export function Home() {
     return(
         <div>
@@ -14,8 +15,10 @@ export function Home() {
                             </div>
                         </h2>
                     </div>
-                    <div className='profile'>
-                        Profile Pic
+                    <div className='profile-wrapper'>
+                        <div className='profile-pic'>
+                            <img className='profile' src={profile} alt="profile-pic" />
+                        </div>
                     </div>
                 </div>
             </div>
