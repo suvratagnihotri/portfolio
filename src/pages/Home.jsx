@@ -6,7 +6,12 @@ export function Home() {
                 <div className="info">
                     <div className='brief-introduction-wrapper'>
                         <h2 className='introduction'>
-                            Introduction
+                            <h3 id='name'>Suvrat</h3>
+                            <div className='message'>
+                                <div id='word1'>Java Developer</div>
+                                <div id='word2'>Software Eng.</div>
+                                <div id='word2'>2 Years Exp.</div>
+                            </div>
                         </h2>
                     </div>
                     <div className='profile'>
