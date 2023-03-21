@@ -28,8 +28,8 @@ function Experience() {
         </div>
         <div className='right-half-container'>
             <div className='second-experience-container'>
-            <div className='company-name'>
-                    Gingerwebs Pvt. Ltd.
+                <div className='company-name'>
+                        Gingerwebs Pvt. Ltd.
                 </div>
                 <div className='company-domain'>
                     (Assessment Domain)
