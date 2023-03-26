@@ -1,7 +1,12 @@
-export function Profile() {
+import EditProfile from "../components/EditProfile";
+import Footer from "../components/Footer";
+
+
+export function Profile(props) {
     return (
         <div>
-            Profile Page
+            <EditProfile userName={props.userName} setUserName={props.setUserName}/>
+            <Footer/>
         </div>
     );
 }

@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 export function Home() {
     return(
         <div>
-            <BriefIntroduction/>
+            <BriefIntroduction />
             <Experience/>
             <Footer/>
         </div>

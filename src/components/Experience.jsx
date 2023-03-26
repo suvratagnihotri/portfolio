@@ -1,27 +1,35 @@
-import React from 'react';
+import React,{useContext} from 'react';
+import { AppContext } from '../App';
 import './experience.css';
 
 
 function Experience() {
+    const { companyName,
+            companyDomain,
+            userProfile,
+            timePeriod,
+            workDescription
+        } = useContext(AppContext)
   return (
     <div className='experience-container'>
         <div className='left-half-container'>
             <div className='first-experience-container'>
                 <div className='company-name'>
-                    Side-Projects-Community
+                    {companyName}
                 </div>
                 <div className='company-domain'>
-                    (Service Domain)
+                    ({companyDomain})
                 </div>
                 <div className='time-period'>
-                    6 months
+                    {timePeriod}
                 </div>
                 <div className='your-role'>
-                    Java Developer (Software Intern)
+                    {userProfile}
                 </div>
                 <div className='work-description'>
                     <p>
-                        My main role was to learn and implement the same in the project.I have developed a few projects over there like, "Telegram Chatbot".
+                        {/* My main role was to learn and implement the same in the project.I have developed a few projects over there like, "Telegram Chatbot". */}
+                        {workDescription}
                     </p>
                 </div>
             </div>
