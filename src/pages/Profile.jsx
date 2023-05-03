@@ -6,7 +6,7 @@ export function Profile(props) {
     return (
         <div>
             <EditProfile userName={props.userName} setUserName={props.setUserName}/>
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }
